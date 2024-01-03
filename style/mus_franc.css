@@ -1,0 +1,51 @@
+
+
+.musique134{
+    width: 62vw;
+    height: auto;
+    float: left;
+}
+
+.musique25{
+    width: 30vw;
+    height: auto;
+    float: right;
+    text-align: center;
+}
+
+img{
+    max-width: 50%;
+    height: 50%;
+    width: auto;
+    padding: 1%;
+}
+.musique1, .musique4 {
+    display: flex;
+    align-items: center;
+}
+.musique3 {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: flex-end;
+}
+.musique3 figcaption{
+    align-self: flex-end;
+    text-align: right;
+}
+figcaption{
+    margin: auto 10px;
+    width:50%;
+    height: 100%;
+    line-height:2em;
+    font-size: 1.5vw;
+}
+.musique2, .musique5 {
+    display: flex;
+    flex-flow: column;
+    width: 40vw;
+}
+.musique2 figcaption, .musique5 figcaption{
+    align-self: flex-start;
+    width: 20vw;
+    line-height:1.5em;
+}

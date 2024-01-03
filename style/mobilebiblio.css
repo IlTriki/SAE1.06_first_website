@@ -1,0 +1,21 @@
+img{
+    width: 30vw;
+    height: auto;
+}
+li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 4vw;
+}
+figcaption{
+    width: 30vw;
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+    padding-right: 2%;
+}
+div{
+    margin-bottom: 4vw;
+}
+figure img{
+    float: right;
+}

@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Lao Sans Pro'; /*a name to be used later*/
+    src: url("fonts/Lao-Sans-Pro.ttf") format("truetype"); /*URL to font*/
+}
+#active, .menu-btn, .bars{
+    display: none;
+}
+
+img{
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+}
+nav img{
+    height:50%;
+    max-height: 80%;
+    width: auto;
+}
+div > p{
+    font-family: 'Lao Sans Pro';
+    font-size: 150%;
+    text-align: center;
+}
+
+div a{
+    font-family: 'Lao Sans Pro';
+    color: black;
+    font-weight: bold;
+}
+
+div a:link{
+    text-decoration: none;
+}
+
+figure {
+    display: table;
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+    font-size: 150%;
+}
+
+#contenu {
+    max-height: 80%;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.center {
+    display: block;
+    width: auto;
+    text-align: center;
+}
+
+.texte{
+    width: 80%;
+    height: auto;
+    margin: 1% auto;
+}
+
+#images_acc_par1{
+    display: flex;
+}
+
+#images_acc_par2{
+    display: flex;
+    padding-top: 2%;
+}
+
+#images_acc_par3{
+    padding-top: 1%;
+}
+
+#images_acc_par3 img{
+    width: auto;
+    height: 14vw;
+    max-height: 250px;
+    padding: 1%;
+}

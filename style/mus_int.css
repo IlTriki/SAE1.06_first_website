@@ -1,0 +1,41 @@
+body>h1{
+    text-align: center;
+}
+section>p{
+    text-align: center;
+}
+section>h2{
+    text-align: center;
+}
+img{
+    height: 10vw;
+    width: auto;
+
+}
+#rap{
+    margin: 20px;
+}
+#pop{
+    margin: 20px;
+}
+#titrepop{
+    margin: 10px;
+    
+}
+.rock{
+    margin: 20px;
+}
+#div1{
+    float: left;
+    width: 40vw;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+#div2{
+    float: right;
+    width: 40vw;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}

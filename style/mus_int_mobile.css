@@ -1,0 +1,14 @@
+#pop{
+    margin: 20px;
+    line-height: 20px;
+}
+.rock{
+    line-height: 20px;
+}
+.mob{
+    width: 60vw;
+    height: auto;
+}
+#div1, #div2{
+    text-align: center;
+}

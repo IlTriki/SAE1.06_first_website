@@ -1,0 +1,35 @@
+body{
+    margin: 20px;
+    padding: 20px;
+    background-color: #CEECF8;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+header{
+    margin: 20px;
+}
+#innovation{
+    padding: 20px;
+    margin: 20px;
+}
+#actu{
+    padding: 20px;
+    margin: 20px;
+    
+}
+#green{
+    padding: 20px;
+    margin: 20px;
+}
+#site{
+    padding: 20px;
+    margin: 20px;
+}
+.img1{
+    max-width: 50%;
+}
+figcaption{
+    caption-side: top;
+}

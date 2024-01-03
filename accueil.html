@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page d'accueil</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen and (min-width:521px)' href='menu1.css'>  <!--on utilise un fichier css à part pour le menu-->
+    <link rel='stylesheet' type='text/css' media='screen and (min-width:521px)' href='accueil.css'>   <!--reste du css pour l'accueil-->
+    <link rel='stylesheet' type='text/css' media='screen and (max-width:520px)' href='menu_mobile1.css'>  <!--menu mobile-->
+    <link rel='stylesheet' type='text/css' media='screen and (max-width:520px)' href='accueil_mobile.css'>   <!--accueil mobile-->
+</head>
+<body>
+    <p> Les années 2000 </p>
+    <nav>
+        <div class="navbar">
+          <div class="container nav-container">
+              <input class="checkbox" type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>
+            <div class="logo">
+              <img src="images/logo.jpg" alt="logo">
+            </div>
+            <div class="menu-items">
+              <ul class="menu">
+                <li id="init"> <a href='accueil.html'> Page d'acceuil</a></li>
+                <li> <a href='musique_francaise.html'> Musique française</a></li>
+                <li> <a href='musique_internationale.html'> Musique internationale</a></li>
+                <li> <a href='filactu.html'> Fil d'actualités</a></li>
+                <li> <a href='bibliographie.html'> Bibliographie</a></li>
+                <li><a href="Tencent.html"> Tencent</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <div id="contenu" class="center">   <!--premier paragraphe qui contient les images et la phrase d'intorduction-->
+        <p id="p1">Les années 2000 sont une décennie qui a été marquée par beaucoup des évènements qui ont encore aujourd’hui de l’influence dans le monde :</p>
+        
+        <div id="images_acc_par1">
+            <figure>
+                <img src="images/attentats.webp" alt="attentats">
+                <figcaption>Les attentats du 11/09/2001</figcaption>
+            </figure>
+            <figure>
+                <img src="images/crise.webp" alt="crise 2007">
+                <figcaption>La crise financière du 2007</figcaption>
+            </figure>
+        </div>
+        <div id="images_acc_par2">
+            <figure>
+                <img src="images/internet.webp" alt="bulle internet">
+                <figcaption>L’explosion de la bulle Internet</figcaption>
+            </figure>
+            <figure>
+                <img src="images/reseaux.png" alt="reseaux sociaux">
+                <figcaption>Les débuts des réseaux sociaux</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div id="images_acc_par3" id="contenu" class="center">   <!--deuxieme paragraphe qui explique le contenu du site avec quelques images-->
+        <p class="texte">Comme dans toutes les autres décennies la musique a exercée une immense influence dans les années 2000, non seulement en France mais aussi dans le monde entier et, comme vous allez voir, c’était une décennie qui ne manquait pas de variété grâce à l’influence d’internet.</p>
+        <p class="texte">Nous allons donc vous guider dans le monde de la musique des années 2000 en vous parlant de la <a href='musique_francaise.html' target="blank">musique française</a> et de la <a href='musique_internationale.html' target="blank">musique internationale</a>, en passant par le rock, le pop,l’R&B et le rap.</p>
+        <p class="texte">PS : N’hesitez pas à regarder dans notre <a href='filactu.html' target="blank">fil d’actualités</a> pour voir où sont vos artistes preferés aujourd’hui!</p>
+        <!--faut ajouter les liens hypertextuelles vers les autres pages-->
+        <div class="contenuimg">
+            <img src="images/rap.webp" alt="rap"> <img src="images/pop.png" alt="pop"> <img src="images/rock.png " alt="rock">
+        </div>
+    </div>
+
+</body>

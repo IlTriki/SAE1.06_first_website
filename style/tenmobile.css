@@ -1,0 +1,30 @@
+body{
+    background-color: #ceecf8;
+    margin: 20px;
+}
+header{
+    margin: 20px;
+}
+img{
+    max-width: 50%;
+    padding: 20px;
+}
+figcaption{
+    margin: 20px;
+}
+#innovation{
+    margin: 20px;
+    padding: 20px;
+}
+#actu{
+    margin: 20px;
+    padding: 20px;
+}
+#green{
+    margin: 20px;
+    padding: 20px;
+}
+#site{
+    margin: 20px;
+    padding: 20px;
+}

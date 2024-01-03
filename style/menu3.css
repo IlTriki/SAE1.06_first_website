@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Imperial Script'; /*a name to be used later*/
+    src: url("fonts/ImperialScript-Regular.ttf") format("truetype"); /*URL to font*/
+}
+
+body > p{
+    text-align: center;
+    font-family: 'Imperial Script';
+    font-style: normal;
+    padding: 0px;
+    font-size: 250%;
+    margin: 0px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+  }
+  
+.navbar {
+    width: 100%;
+    background-color:#1f1f1f;
+  }
+  
+.nav-container {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    position: relative;
+  }
+
+ul.menu {
+    padding:0;
+    list-style:none;
+    height:62px;
+    line-height: 62px;
+    max-width: 80%;    
+    background:#1f1f1f;
+    margin: 0 auto;
+    overflow: hidden;
+}
+ul.menu li {
+    border-right:1px solid white; 
+    float:left;
+    padding-right: 2%;
+    font-size:1vw;
+}
+ul.menu li#init{
+    border-left: 1px solid white; 
+}
+
+ul.menu a {
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding-left: 10px;
+}
+  
+.nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+.nav-container .hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+.nav-container .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: white;
+  }
+  
+.nav-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+.nav-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+.nav-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+
+
+.logo {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    color: #0e2431;
+  }
+  
+.logo img{
+    height: 50px;
+  }
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color : gray;
+    border-bottom: (2px solid gold);
+}

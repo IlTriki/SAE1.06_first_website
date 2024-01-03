@@ -1,0 +1,156 @@
+.articletête{
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    margin-left: 10%;
+    margin-top: 1%;
+    object-fit: contain;
+}
+.article1 {
+    align-items: center;
+    display: flex;
+    width: 50%;
+    position: relative;
+}
+.article1ecrit{
+    margin-bottom: 0.16%;
+    margin-left: 1.3%;
+    position: relative;
+    align-items: center;
+    width: 1806.25%;
+    font-size: 100%;
+}
+.titre1{
+    width: 100%;
+    bottom: 62.5%;
+    font-weight: bold;
+    max-width: 100%;
+}
+.soustexte1{
+    position: relative;
+    font-family: "Lao Sans Pro-Regular";
+    
+}
+.rectangle{
+    background-color: gray;
+    border: 1px none;
+    border-radius: 1px;
+    height: 14vh;
+    width: 0.2%;
+    float:right;
+}
+.rectangle2{
+    background-color: gray;
+    border: 1px none;
+    border-radius: 1px;
+    height : 0.2vh;
+    width: 60%;
+    position : relative;
+    margin-top: 0.3%;
+    left:28%;
+}
+.rectangle3{
+    background-color: gray;
+    border: 1px none;
+    border-radius: 1px;
+    height: 14vh;
+    width: 0.2%;
+    float:right;
+}
+@font-face {
+    font-family: "Lao Sans Pro-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://font.animaapp.com/LaoSansPro-Regular")
+    format("truetype");
+}
+
+.coolio{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-top: 0.5%;
+    width: 60%;
+    
+}
+.article4ecrit{
+    margin-bottom: 0.16%;
+    margin-left: 1.3%;
+    position: relative;
+    align-items: flex-start;
+    display:flex;
+    vertical-align: middle;
+    flex-direction: column;
+}
+.article4{
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    width: 20%;
+}
+.titre4{
+    min-height: 7vh;
+    text-align: center;
+    font-weight:bold;
+}
+.soustexte4{
+    text-align: center;
+    width: 380px;
+    min-height: 205px;
+    font-family: "Lao Sans Pro-Regular";
+}
+.article5{
+    align-items: center;
+    display:flex;
+    vertical-align: middle;
+    flex-direction: column;
+}
+.orelsan{
+    align-items: center;
+    display: flex;
+    width:40%;
+    margin-left: 27%;
+    margin-top: 1%;
+    float: left;
+}
+.titre5{
+    text-align: center;
+    width:70%;
+    text-align: center;
+    font-weight: bold;
+    max-width: 100%;
+    margin-left: 15%;
+}
+.soustexte5{
+    margin-left: 0.6%;
+    text-align: center;
+    width: 350px;
+}
+.orelsanimg{
+    height: auto;
+    width: 50%;
+    max-height: 50%;
+}
+.image{
+    max-height: 24%;
+    width: 24%;
+    height: auto;
+}
+.articlebas{
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    margin-top: 1%;
+    object-fit: contain;
+}
+.nelly{
+    align-items: center;
+    display: flex;
+    float: right;
+    width:40%;
+    margin-right: 25%;
+
+}
